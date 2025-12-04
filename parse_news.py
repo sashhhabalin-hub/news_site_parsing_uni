@@ -62,4 +62,5 @@ def main():
 
     print(json.dumps(news_by_section, ensure_ascii=False, indent=2))
 
-print(main())
+if __name__ == "__main__":
+    print(main())
